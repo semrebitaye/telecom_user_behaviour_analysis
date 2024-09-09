@@ -8,7 +8,7 @@ def missing_values_table(df):
 
     # percentage of missing value
     mis_val_percent = 100 * df.isnull().sum() / len(df)
-
+ 
     # dtype of missing value
     mis_val_type = df.dtypes
 
@@ -30,9 +30,10 @@ def missing_values_table(df):
 
 
 def connvert_bytes_to_megabytes(df, bytes_data):
-    megabytes = 1 * 10e+5
-    df[bytes_data] = df[bytes_data]/megabyte
+    megabytes = 1 * 10**6 
+    df[bytes_data] = df[bytes_data] / megabytes
     return df[bytes_data]
+
 
 def fix_outlier(df, column):
     df[column] = np.where(df[column] > df[column].quantile(0.95), df[column].median(), df[column])
