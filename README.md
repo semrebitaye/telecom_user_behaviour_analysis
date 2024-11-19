@@ -1,6 +1,6 @@
 ## TellCo Telecom Data Analysis and Dashboard Project
 
-##### This project focuses on analyzing and visualizing data from TellCo, a mobile service provider, to extract meaningful insights about customer engagement, experience, and satisfaction. It combines data analytics, machine learning, and software engineering to build a comprehensive dashboard and predictive models. The project is designed to showcase advanced coding practices, deployment pipelines, and end-to-end problem-solving capabilities.
+This project focuses on analyzing and visualizing data from TellCo, a mobile service provider, to extract meaningful insights about customer engagement, experience, and satisfaction. It combines data analytics, machine learning, and software engineering to build a comprehensive dashboard and predictive models. The project is designed to showcase advanced coding practices, deployment pipelines, and end-to-end problem-solving capabilities.
 ### Features
 
     Data Preprocessing:
