@@ -1,4 +1,8 @@
-sqlalchemy
 pandas
-sklearn
-python.dotenv
+numpy
+matplotlib
+seaborn
+scikit-learn
+streamlit
+sqlalchemy
+psycopg2
